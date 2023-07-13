@@ -6,10 +6,9 @@
 
 As a conclusion to our week of Python Fundamentals, we're putting the FUN in FUNdamen- ugh.
 
-Your challenge is to (either solo or part of a group) develop additional features into the RPG script that Chad demonstrated to you. 
+Your challenge is to (either solo or part of a group) develop additional features into the RPG script that Jason demonstrated to you. 
 
 Some suggestions for implementations are provided below- you're also encouraged to come up with your own ideas!
-- Add additional rooms.
 - Count how many "moves" the player has made.
 - Find a way to add a description of each room that describes every direction you can go.
 - Find a way to have multiple items inside the same room.
@@ -28,7 +27,7 @@ Some suggestions for implementations are provided below- you're also encouraged 
 - **Class**- build a Player class object to internalize (and therefore replace) existing procedural player characteristics: inventory, health, spells, etc. BUT ALSO implement player stats that `def __init__(self)` upon creation. Create a method that triggers a level-up message where users can allocate points to  strength, intelligence, and speed.
 
 ### Requirements:
-
+- Add at least 3 rooms and add two new items. The rooms/items can be useful or play a trick once picked up. Example: Character picks up a bottle thinking it will contain a useful item, but instead displays a message, "Sorry! Your hint is in another bottle!"
 - Implement at least 3 **significant** changes to the code. They can be taken from the suggestions above or you can come up with your own!
 - Comment your code well! Others are going to be reading your code.
 - Follow PEP8 standards where appropriate. Use """multi-line doc strings""" at the top of your module and all functions to announce their purpose. Cite the names of who wrote that code. No "spaghetti code."
